@@ -67,11 +67,39 @@
 
 
 
+.page-heading{
+    text-transform:uppercase;
+    text-align:center;
+    background-color: rgba(20, 20, 20, 0.712);
+    color:rgb(248, 119, 14);
 
+}
+
+.signup-text{
+    text-align:center;
+    text-transform: uppercase;
+    padding-top:10px;
+}
+
+.form-container{
+    background: #f49c27;
+    color: #fff;
+    background-image: linear-gradient(135deg,#f49c27,#b64409);
+    display: inline-block;
+    text-align: center;
+    padding-top:20px;
+    width:60%;
+}
+
+.form-container form{
+    width:70%;
+    display: inline-block;
+    text-align: center;
+}
 
 
 .form-signup{
-    color:#6b6b69;
+    color:#fff;
 }
 
 .form-signup label{
@@ -80,7 +108,7 @@
 }
 
 .form-signup input{
-    background-color: rgb(238, 136, 20, 0.5);
+    background-color: #fff;
     border:1px solid #6b6b69;
 }
 
