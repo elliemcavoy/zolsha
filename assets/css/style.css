@@ -1,6 +1,7 @@
 
 .navbar{
     background-color: white;
+    height:100px;
 }
 
 @media screen and (min-width:768px){
@@ -11,6 +12,13 @@
     .largescreen-nav{display:none;}
 }
 
+.largescreen-nav{
+    height:100px;
+}
+
+.logo-img img{
+    height:90px;
+}
 .menulink{
     margin:0px;
     text-transform: uppercase;
@@ -36,4 +44,23 @@
 .logo-img{
     padding:10px;
     text-align: center;
+}
+
+.main-img-container img{
+    width:100%;
+}
+
+.main-img-container{
+    padding:0px;
+}
+
+.intro-text{
+    position:absolute;
+    z-index:2;
+    right:10%;
+    top:30%;
+    background-color: rgba(20, 20, 20, 0.712);
+    color:rgb(248, 119, 14);
+    text-align: center;
+    padding:10px;
 }
